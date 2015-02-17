@@ -1,6 +1,6 @@
 {
   "name": "path-is-absolute",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Node.js 0.12 path.isAbsolute() ponyfill",
   "license": "MIT",
   "repository": "sindresorhus/path-is-absolute",
