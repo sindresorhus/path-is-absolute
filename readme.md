@@ -22,7 +22,7 @@ pathIsAbsolute('/home/foo');
 //=> true
 
 // Windows
-pathIsAbsolute('C:/Users/');
+pathIsAbsolute.win32('C:/Users/');
 //=> true
 
 // Any OS
