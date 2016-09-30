@@ -13,7 +13,7 @@
     "node": ">=0.10.0"
   },
   "scripts": {
-    "test": "node test.js"
+    "test": "xo && node test.js"
   },
   "files": [
     "index.js"
@@ -36,5 +36,8 @@
     "is",
     "detect",
     "check"
-  ]
+  ],
+  "devDependencies": {
+    "xo": "^0.16.0"
+  }
 }

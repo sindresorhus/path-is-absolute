@@ -1,5 +1,4 @@
 var assert = require('assert');
-var util = require('util');
 var pathIsAbsolute = require('./');
 
 var path = {
