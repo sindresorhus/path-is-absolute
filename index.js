@@ -1,7 +1,7 @@
 'use strict';
 
 function posix(path) {
-	return path.charAt(0) === '/';
+	return typeof path === 'string' && path.charAt(0) === '/';
 }
 
 function win32(path) {
