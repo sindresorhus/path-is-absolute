@@ -6,7 +6,7 @@ function posix(path) {
 
 function win32(path) {
 	// https://github.com/nodejs/node/blob/b3fcc245fb25539909ef1d5eaa01dbf92e168633/lib/path.js#L56
-	var splitDeviceRe = /^([a-zA-Z]:|[\\\/]{2}[^\\\/]+[\\\/]+[^\\\/]+)?([\\\/])?([\s\S]*?)$/;
+	var splitDeviceRe = /^([a-zA-Z]:|[\\/]{2}[^\\/]+[\\/]+[^\\/]+)?([\\/])?([\s\S]*?)$/;
 	var result = splitDeviceRe.exec(path);
 	var device = result[1] || '';
 	var isUnc = Boolean(device && device.charAt(1) !== ':');
