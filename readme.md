@@ -1,3 +1,9 @@
+# Deprecated
+
+This package is no longer relevant as Node.js 0.12 is unmaintained.
+
+---
+
 # path-is-absolute [![Build Status](https://travis-ci.org/sindresorhus/path-is-absolute.svg?branch=master)](https://travis-ci.org/sindresorhus/path-is-absolute)
 
 > Node.js 0.12 [`path.isAbsolute()`](http://nodejs.org/api/path.html#path_path_isabsolute_path) [ponyfill](https://ponyfill.com)
